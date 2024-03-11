@@ -1,0 +1,84 @@
+@media(min-width: 769px){
+    .m{display: none;}
+    .pc{display: none;}
+    .tab{display: block;}
+
+
+    .main-vis .main-swiper {}
+    .main-vis .main-swiper .swiper-wrapper {}
+    .main-vis .main-swiper .swiper-wrapper .swiper-slide{
+        display: flex;
+        align-items: center;
+
+    }
+    .main-vis .main-swiper .swiper-wrapper .swiper-slide a{
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0 40px;
+    }
+    .main-vis .main-swiper .swiper-wrapper .swiper-slide a .text{
+        text-align: unset;
+        width: 50%;
+        padding-left: 20px;
+    }
+    .main-vis .main-swiper .swiper-wrapper .swiper-slide a .text .name{}
+    .main-vis .main-swiper .swiper-wrapper .swiper-slide a .text h3{
+        font-size: 36px;
+        text-wrap: nowrap;
+    }
+    .main-vis .main-swiper .swiper-wrapper .swiper-slide a .text .sub-head{
+        text-align: unset;
+        font-size: 20px;
+        margin: unset;
+    }
+    .main-vis .main-swiper .swiper-wrapper .swiper-slide a .text .context{
+        text-align: unset;
+        font-size: 16px;
+        max-width: 100%;
+        padding-bottom: 12px;
+    }
+    .main-vis .main-swiper .swiper-wrapper .swiper-slide a .text .more{
+        margin: unset;
+        display: flex;
+        justify-content: end;
+    }
+    .main-vis .main-swiper .swiper-wrapper .swiper-slide a .product img{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .s1 .wrap .inner .con a{
+        width: 275px;
+        height: 400px;
+    }
+
+    .s2 .wrap .header{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+    .s3 .wrap .inner .box a{
+        width: max-content;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .s3 .wrap .inner .box a .txt{
+        width: 300px;
+        padding: 20px;
+        color: #fff;
+    }
+    .s4 .wrap .inner .txt .hd .c{font-weight: 600; font-size: 44px; padding-bottom: 10px;display: flex; align-items: center; justify-content: unset; gap: 70px;}
+    .s4 .wrap .inner .txt .hd .c::after{
+        content: '';
+        display: block;
+        width: 600px ;
+        height: 3px;
+        background-color: #fff;
+    }
+    .s4 .wrap .inner .txt .hd .f::after{display: none;}
+
+
+}/* xxxx */
