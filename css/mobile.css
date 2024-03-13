@@ -306,6 +306,18 @@ nav .store a::after{
 .s3 .wrap .inner .box a .txt h4{
     font-size: 28px;
     padding-bottom: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.s3 .wrap .inner .box a .txt p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
 }
 .s3 .wrap .inner .box a .txt .btn-more{
     width: 12px;
