@@ -399,6 +399,9 @@ footer .wrap .inner{
     text-align: right;
     gap: 12px;
 }
+footer .wrap .inner .list{
+    text-wrap: nowrap;
+}
 footer .wrap .info{
     font-size: 12px;
     font-weight: 200;
