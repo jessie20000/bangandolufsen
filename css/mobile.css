@@ -392,16 +392,12 @@ footer .wrap{
     color: #fff;
 }
 footer .wrap .inner{
-    overflow: scroll visible;
-    text-wrap: nowrap;
-    font-size: 14px;
     display: flex;
-    text-align: right;
-    gap: 12px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    gap: 8px;
 }
-footer .wrap .inner .list{
-    text-wrap: nowrap;
-}
+
 footer .wrap .info{
     font-size: 12px;
     font-weight: 200;
